@@ -1,38 +1,51 @@
 body {
-  font-family: verdana;
-  margin: 5%;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  background-color: #f4f4f4;
 }
 
 .entryinput,
 #button,
 .dob {
-  width: 95%;
-  font-size: 15px;
-  font-family: verdana;
-  padding: 5px 10px;
-  border: 1px solid black;
-  border-radius: 5px;
+  width: 90%;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 8px;
   box-sizing: border-box;
-  margin-bottom: 2%;
+  margin-bottom: 10px;
 }
 
 #button {
-  height: 45px;
-  margin-top: 3%;
-  border: 2px solid black;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#button:hover {
+  background-color: #45a049;
+}
+
+.dob {
+  width: 30%;
 }
 
 @media screen and (max-width: 510px) {
   body {
-    margin: 2%;
+    margin: 5px;
   }
 
   .entryinput,
   #button {
-    width: 98%;
+    width: 95%;
   }
 
   .dob {
-    width: 31.29%;
+    width: 100%;
   }
 }
