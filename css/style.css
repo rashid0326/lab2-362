@@ -1,0 +1,38 @@
+body {
+  font-family: verdana;
+  margin: 5%;
+}
+
+.entryinput,
+#button,
+.dob {
+  width: 95%;
+  font-size: 15px;
+  font-family: verdana;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+}
+
+#button {
+  height: 45px;
+  margin-top: 3%;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 510px) {
+  body {
+    margin: 2%;
+  }
+
+  .entryinput,
+  #button {
+    width: 98%;
+  }
+
+  .dob {
+    width: 31.29%;
+  }
+}
