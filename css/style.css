@@ -1,51 +1,51 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 10px;
-  background-color: #f4f4f4;
+  font-family: 'Times New Roman', serif;
+  margin: 20px;
+  background-color: #e6e6e6;
 }
 
 .entryinput,
 #button,
-.dob {
-  width: 90%;
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  padding: 8px;
-  border: 2px solid #333;
-  border-radius: 8px;
+.birthday {
+  width: 80%;
+  font-size: 18px;
+  font-family: 'Times New Roman', serif;
+  padding: 10px;
+  border: 3px solid #555;
+  border-radius: 12px;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #button {
-  height: 50px;
-  margin-top: 10px;
-  background-color: #4CAF50;
+  height: 60px;
+  margin-top: 15px;
+  background-color: #007bff;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.4s ease;
 }
 
 #button:hover {
-  background-color: #45a049;
+  background-color: #0056b3;
 }
 
-.dob {
-  width: 30%;
+.birthday {
+  width: 40%;
 }
 
 @media screen and (max-width: 510px) {
   body {
-    margin: 5px;
+    margin: 10px;
   }
 
   .entryinput,
   #button {
-    width: 95%;
+    width: 100%;
   }
 
-  .dob {
+  .birthday {
     width: 100%;
   }
 }
