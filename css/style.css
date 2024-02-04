@@ -17,6 +17,11 @@ body {
   margin-bottom: 15px;
 }
 
+.entryinput {
+  /* Add a box shadow to entry inputs */
+  box-shadow: 2px 2px 5px #888888;
+}
+
 #button {
   height: 60px;
   margin-top: 15px;
@@ -29,10 +34,14 @@ body {
 
 #button:hover {
   background-color: #0056b3;
+  /* Add a box shadow on hover */
+  box-shadow: 2px 2px 5px #888888;
 }
 
 .birthday {
   width: 40%;
+  /* Adjust the border style for the birthday input */
+  border-style: dashed;
 }
 
 @media screen and (max-width: 510px) {
