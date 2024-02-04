@@ -3,36 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <title>Lab 2 - 362</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" media="screen" href="css/reset.css">
     <link rel="stylesheet" media="screen" href="css/style.css">
   </head>
   <body>
     <form method="get" action="#null" autocomplete="on">
       <h2>Volunteer Interest - FORM</h2>
-      <legend>Enter An Email:</legend>
-      <input class="entryinput" type="text" name="textentry" placeholder="example: mrahmed0313@gmail.com">
-      <legend></legend>Enter A Phone Number:</legend>
-      <input class="entryinput" type="text" name="textentry" placeholder="example: (123)456-7890">
-      <legend>Enter Date of Birth:</legend>
-      <select class="birthday" name="month_field">
-        <option>Month</option>
-        <option>January</option>
-        <option>Febuaray</option>
-        <option>March</option>
-        <option>April</option>
-        <option>May</option>
-        <option>June</option>
-        <option>July</option>
-        <option>August</option>
-        <option>September</option>
-        <option>October</option>
-        <option>November</option>
-        <option>December</option>
-      </select>
-      <input class="birthday" type="text" name="textentry" placeholder="DAY">
-      <input class="birthday" type="text" name="textentry" placeholder="YEAR">
+
+      <fieldset>
+        <legend>Enter An Email:</legend>
+        <input class="entryinput" type="text" name="textentry" placeholder="example: mrahmed0313@gmail.com">
+      </fieldset>
+
+      <fieldset>
+        <legend>Enter A Phone Number:</legend>
+        <input class="entryinput" type="text" name="textentry" placeholder="example: (123)456-7890">
+      </fieldset>
+
+      <fieldset>
+        <legend>Enter Date of Birth:</legend>
+        <select class="birthday" name="month_field">
+          <option>Month</option>
+          <option>January</option>
+          <option>February</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>October</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+        <input class="birthday" type="text" name="day_entry" placeholder="DAY">
+        <input class="birthday" type="text" name="year_entry" placeholder="YEAR">
+      </fieldset>
+
+      <button id="button" type="submit">Submit</button>
     </form>
-    <button id="button">Submit</button>
   </body>
 </html>
